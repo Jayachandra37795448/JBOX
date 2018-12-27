@@ -1,56 +1,9 @@
-# Version 1.0.6
-
-Changes:</br>
-
-* Added Execution service UI for CT user convenience.
-* Execution service page is combination of drop-downs, input fields and action buttons.
-* Added timestamp on test step level*
-
-# Version 1.0.4 & 1.0.5
-
-Changes:
-
-* Rally tab data binding fields updated as per back-end updates
-* Console log tab on ETR
-* Code Update to display step name more than 30 chars
-* Code update to parse html tags
-* Code update to display timestamp on test step level
-
-# Version 1.0.3
-
-Changes:
-
-* Created testRunGroup page with list of test suites
-* Added Rally tab on test case page
-* Added failure reasons on test suite page
-
-# Version 1.0.2
-
-Changes:
-
-* Added search feature
-* Show all test steps
-* UI Enhancements
-* Error handling for invalid inputs (in route level)
-
-# Version 1.0.1
-
-Changes:
-
-* Productionize Enterprise Test Report (ETR).
-
-# Version 1.0.0
-	
-Changes:
-* Custom views for BDD test suites
 
 # Version 0.1
 
-CT Enterprise Test Report 2
+JBOX
 
-* Test Suite View
-* Test Case View
-* Test Search View
+* Startup app
 
 This application built using Angular 6. Prerequisites are :
 Node.js v8.x or higher
