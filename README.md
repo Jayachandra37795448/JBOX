@@ -11,13 +11,13 @@ npm 5.x or higher
 
 ## Getting Started
 
-* Clone the repo: `ssh://git@bitbucket.service.edp.t-mobile.com:7999/cta/ct_enterprise_test_report2.git`
+* Clone the repo: `https://github.com/Jayachandra37795448/JBOX.git`
 
-* Or Fork the repo `ssh://git@bitbucket.service.edp.t-mobile.com:7999/cta/ct_enterprise_test_report2.git`
+* Or Fork the repo `https://github.com/Jayachandra37795448/JBOX.git`
+
+* Recommended is to create a feature branch
 
 ## Using the Source Files
-
-After cloning the repo take a look at the `gulpfile.js` and check out the tasks available:
 
 *  Run `npm install` to install the dependancies through `package.json`
 
