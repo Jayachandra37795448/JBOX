@@ -1,0 +1,99 @@
+{
+  "name": "tep-test-report",
+  "version": "1.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "postbuild": "cp ./includes/nginx.conf ./dist/tep-test-report/",
+    "test": "ng test --code-coverage=true --watch=false",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "pree2e": "webdriver-manager update --standalone false --gecko false"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^6.0.6",
+    "@angular/common": "^6.0.6",
+    "@angular/compiler": "^6.0.6",
+    "@angular/core": "^6.0.6",
+    "@angular/forms": "^6.0.6",
+    "@angular/http": "^6.0.6",
+    "@angular/platform-browser": "^6.0.6",
+    "@angular/platform-browser-dynamic": "^6.0.6",
+    "@angular/router": "^6.0.6",
+    "@ng-bootstrap/ng-bootstrap": "^2.1.1",
+    "angular-datatables": "^6.0.0",
+    "angular-flot": "0.0.17",
+    "angular-font-awesome": "^3.1.2",
+    "bootstrap": "^4.2.1",
+    "browserify": "^16.2.2",
+    "browserify-shim": "^3.8.14",
+    "bzip2": "^0.1.1",
+    "classlist.js": "^1.1.20150312",
+    "core-js": "^2.5.4",
+    "datatables.net": "^1.10.19",
+    "datatables.net-dt": "^1.10.19",
+    "datatables.net-rowgroup": "^1.0.3",
+    "express": "^4.16.3",
+    "flot": "^0.8.0-alpha",
+    "flot-spline": "0.0.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "jquery.flot.tooltip": "^0.9.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "ng2-charts": "^1.6.0",
+    "ng2-file-input": "^1.1.0",
+    "ng2modules-flot": "0.0.1",
+    "popper.js": "^1.14.3",
+    "rxjs": "^6.2.2",
+    "rxjs-compat": "^6.2.2",
+    "web-animations-js": "^2.3.1",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.6.8",
+    "@angular/cli": "~6.0.8",
+    "@angular/compiler-cli": "^6.0.3",
+    "@angular/language-service": "^6.0.3",
+    "@types/datatables.net": "^1.10.11",
+    "@types/datatables.net-rowgroup": "^1.0.0",
+    "@types/jasmine": "~2.8.6",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/jquery": "^3.3.4",
+    "@types/node": "~8.9.4",
+    "codelyzer": "~4.2.1",
+    "jasmine-core": "~2.99.1",
+    "jasmine-spec-reporter": "~4.2.1",
+    "json2yaml": "^1.1.0",
+    "karma": "~1.7.1",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.0",
+    "karma-jasmine": "~1.1.1",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-typescript": "^3.0.13",
+    "protractor": "~5.3.0",
+    "style-loader": "^0.21.0",
+    "ts-node": "~5.0.1",
+    "tslint": "~5.9.1",
+    "typescript": "~2.7.2"
+  },
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.js",
+    "flot": "./node_modules/flot/jquery.flot.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "$",
+    "flot": {
+      "exports": "flot",
+      "depends": [
+        "jquery:jQuery"
+      ]
+    }
+  }
+}

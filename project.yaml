@@ -1,0 +1,11 @@
+#branchStrategy:  gitflow
+#maven build parameters
+projectName: ct_enterprise_test_report2
+appVersion: 1.0.3
+buildType: ang6
+gitRepo: ssh://git@bitbucket.service.edp.t-mobile.com:7999/cta/ct_enterprise_test_report2.git
+
+artifactoryId: JBox
+
+
+
