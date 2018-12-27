@@ -1,6 +1,6 @@
 {
-  "name": "tep-test-report",
-  "version": "1.0.0",
+  "name": "JBOX",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
