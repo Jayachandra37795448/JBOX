@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+  .m-marLeft-2p{
+    margin-left: 2%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.bc-search{
+  background-color: #28a745 !important;
+}
+
+footer{
+  background-color: #D3D3D3!important;
+}

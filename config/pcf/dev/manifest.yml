@@ -1,0 +1,15 @@
+---
+env:
+  http_proxy: http://proxy.internal.t-mobile.com:9090
+  https_proxy: http://proxy.internal.t-mobile.com:9090
+applications:
+- name: ct_reports2_api
+  memory: 2G
+  buildpack: nodejs_buildpack
+  path: ../../../server/
+  services:
+    - ct_reports
+- name: ct_reports2_app
+  memory: 1G
+  buildpack: staticfile_buildpack
+  path: ../../../dist/tep-test-report/
